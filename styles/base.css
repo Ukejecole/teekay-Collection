@@ -1,0 +1,152 @@
+body{
+    font-family: "Poppins";
+    font-size: 18px;
+    margin: 0;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(#0d0d0d, #212121);
+    color: #9bb5e3;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav{
+    width:100%;
+    box-shadow: 
+    0 0 10px rgb(0 0 0 / 8%);
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 70px;
+}
+
+.menu li{
+    display: inline-block;
+    width: 90px ;
+}
+.menu li:hover .submenu {
+    height:85px ;
+}
+
+.menu > li:hover > a{
+    color: #3e95ff;
+}
+
+.menu > li:hover > a ::before{
+    visibility: visible;
+    scale: 1 1;
+}
+
+.submenu{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    background: #3e95ff;
+    height: 0;
+    line-height: 40px;
+    box-sizing: border-box;
+    transition: height 0.3s
+    ease-in-out;
+}
+
+.menu li .submenu a{
+    color: #fff;
+    opacity: 0;
+    font-size: 16px;
+    transition: opacity 0.25s;
+}
+
+.menu > li:hover .submenu a{
+    opacity: 1;
+}
+.menu > li:hover .submenu a:hover{
+    background: rgb(0 0 0 / 20%);
+}
+
+.menu > li a{
+    color: #999;
+    position: relative;
+    height: 100%;
+}
+
+.menu > li > a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 3px;
+    left: 0px;
+    background: #3e95ff;
+    transition: all 0.2s ease-in-out;
+    scale: 0 0;
+    visibility: hidden;
+}
+/***********************FOOTER********************************************/
+.background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(4);
+    transform-origin: bottom;
+    box-sizing: border-box;
+    display: block;
+    pointer-events: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 12px;
+    display: flex;
+    width: 100%;
+    height: 230px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (width > 620px) {
+    section{
+        align-items: center;
+        padding-left: 0;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeKay Collections</title>
+    <meta name="description" content="TeeKay Apparels">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <img src="./images/" alt="main logo">
+        <ul class="menu">
+            <li><a href="./index.html">Home</a>
+        <li>
+            <a href="#">Fashion</a>
+            <ul class="submenu">
+                <li><a href="./index.html">Men</a></li>
+                <li><a href="./index.html">Women</a></li>
+                <li><a href="./index.html">Headgear</a></li>
+                <li><a href="./index.html">Accesories</a></li>
+            </ul>
+        </li>
+        <li><a href="./index.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <footer>
+        <div class="background">
+            <svg
+            version="1.1"
+            xmlns="http://www.w.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="100%"
+            height="100%"
+            viewBox="0 0 1600 900"
+        >
+            <defs>
+                <linearGradient id="bg">
+                    <stop 
+                    offset="0%"
+                    style="stop-color: rgba(41, 70, 127, 0.06)"
+                    ></stop>
+                    <stop
+                    offset="100%"
+                    style="stop-color:rgba(53, 127, 242, 0,6)"
+                    ></stop>
+                </linearGradient>
+                <path 
+                id="wave"
+                fill="url(#bg)"
+                d="M-363.853,502.589c0,0,236.988-41.997,505.475,0 s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493,48.368,716.963-4.995v560.106H-363.852V502.589z"
+                />
+            </defs>
+            <g>
+                <use xlink:href="#wave" opacity=".3">
+                    <animateTransform
+                    dur="10s"
+                    attributeName="tranform"
+                    attributeType="XML"
+                    type="translate"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keysplines="0.42. 0. 0.58, 1.0;0.42,0 ,0.58,    1.0"  
+                    repeatCount="indefinite"     
+                    />
+                </use>
+                <use xlink:href="#wave" opacity=".6">
+                    <animateTransform dur="8s"
+                    dur="10s"
+                    attributeName="tranform"
+                    attributeType="XML"
+                    type="translate"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keysplines="0.42. 0. 0.58, 1.0;0.42,0 ,0.58,    1.0"  
+                    repeatCount="indefinite"     
+                    />
+                </use>
+                <use xlink:href="#wave" opacty=".9">
+                    <animateTransform dur="6s"
+                    dur="10s"
+                    attributeName="tranform"
+                    attributeType="XML"
+                    type="translate"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keysplines="0.42. 0. 0.58, 1.0;0.42,0 ,0.58,    1.0"  
+                    repeatCount="indefinite"     
+                    />
+                </use>
+            </g>
+            </svg>
+        </div>
+        <section>
+            <ul class="socials">
+                <li><a class="fa-brands fa-facebook"></a></li>
+                <li><a class="fa-brands fa-twitter"></a></li>
+                <li><a class="fa-brands fa-linkedin"></a></li>
+                <li><a class="fa-brands fa-instagram"></a></li>
+            </ul>
+            <ul class="links">
+                <li><a>Home</a></li>
+                <li><a>Men</a></li>
+                <li><a>Women</a></li>
+                <li><a>Accesories</a></li>
+            </ul>
+            <p class="legal">© 2023 All rights reserved</p>
+        </section>
+    </footer>
+</body>
+</html>

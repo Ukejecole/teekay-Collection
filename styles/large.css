@@ -1,0 +1,40 @@
+
+/* Styles for larger screens */
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 150%;
+}
+
+img {
+  width: 380px;
+  height: 350px;
+}
+
+nav {
+  height: 60px;
+  padding: 0 24px 0 16px;
+}
+
+nav img {
+  width: 32px;
+  height: 32px;
+}
+
+section {
+  padding: 0 80px;
+}
+
+.panel {
+  width: 150%;
+  height: 120%;
+  padding: 20px;
+}
+
+.container .panel:nth-child(odd) {
+  background: #FFFFF0;
+}

@@ -1,0 +1,31 @@
+/* Styles for smaller screens */
+html {
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  img {
+    width: 280px; /* Adjust as needed for smaller screens */
+    height: 250px; /* Adjust as needed for smaller screens */
+  }
+  
+  nav {
+    height: 50px;
+    padding: 0 16px;
+  }
+  
+  nav img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  section {
+    padding: 0 20px;
+  }
+  

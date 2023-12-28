@@ -1,4 +1,4 @@
-html {
+  html {
     overflow-y: scroll;
     height: 100%;
     -webkit-overflow-scrolling: touch;
@@ -31,17 +31,29 @@ html {
   }
   
   img {
-    width: 380px;
-    height: 350px;
+    width: 280px;
+    height: 250px;
     object-fit: contain;
   }
   
-  .banner h2,
+
   .footer h2 {
     margin: 20px 0;
     font-family: Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
   }
   
+  .banner h2 {
+    background-image: url("../images/pic\ 6.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 20px 0;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xx-large; 
+  }
+
   nav {
     position: fixed;
     z-index: 1;

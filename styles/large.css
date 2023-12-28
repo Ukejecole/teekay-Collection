@@ -16,18 +16,34 @@ img {
 }
 
 nav {
-  height: 60px;
-  padding: 0 24px 0 16px;
+  height: 80px;
+  padding: 0 28px 0 20px;
+}
+nav a {
+  font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  justify-content: space-evenly;
+}
+
+nav a:hover{
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+nav a:active{
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 nav img {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
 }
 
-/* section {
-  padding: 0 80px;
-} */
+section {
+  padding: 10px 80px;
+}
+
 section {
   display: flex;
   flex-direction: column;
